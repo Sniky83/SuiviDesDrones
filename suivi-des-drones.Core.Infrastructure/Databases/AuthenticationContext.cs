@@ -1,9 +1,7 @@
-﻿using Microsoft.AspNetCore.Identity;
-using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-using suivi_des_drones.Web.UI.Areas.Identity.Data;
 
-namespace suivi_des_drones.Web.UI.Data;
+namespace suivi_des_drones.Core.Infrastructure.Databases;
 
 public class AuthenticationContext : IdentityDbContext<AuthenticationUser>
 {

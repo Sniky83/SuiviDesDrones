@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using suivi_des_drones.Web.UI.Areas.Identity.Data;
+using suivi_des_drones.Core.Infrastructure.Databases;
 
 namespace suivi_des_drones.Web.UI.Areas.Identity.Pages.Account.Manage
 {

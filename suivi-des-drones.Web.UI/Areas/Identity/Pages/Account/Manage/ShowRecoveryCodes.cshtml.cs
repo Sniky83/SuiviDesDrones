@@ -6,7 +6,6 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Extensions.Logging;
-using suivi_des_drones.Web.UI.Areas.Identity.Data;
 
 namespace suivi_des_drones.Web.UI.Areas.Identity.Pages.Account.Manage
 {
