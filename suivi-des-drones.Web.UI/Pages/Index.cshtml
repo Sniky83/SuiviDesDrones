@@ -1,0 +1,115 @@
+﻿@page
+@using suivi_des_drones.Core.Models
+@model IndexModel
+@{
+    ViewData["Title"] = "Page d'accueil";
+}
+
+@functions
+{
+    string title = "Suivi des drones";
+
+    List<Drone> PrepareListOfDrones()
+    {
+        return this.Model.Drones;
+    }
+
+    string GetTitle()
+    {
+        return this.title;
+    }
+
+    List<HealthStatus> PrepareListStatus()
+    {
+        return this.Model.StatusList;
+    }
+}
+
+<h1>@this.GetTitle()</h1>
+
+<div class="row">
+    <div class="col">Status :</div>
+    <div class="col">
+        @try
+        {
+            var list = this.PrepareListStatus();
+
+            <select>
+                @foreach (var status in list)
+                {
+                    <option value="@status.Id">@status.Label</option>
+                }
+            </select>
+        }
+        catch (Exception ex)
+        {
+            <div>
+                <b style="color: red;">Le filtre des status n'est pas disponible !</b>
+            </div>
+        }
+    </div>
+</div>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Matricule</th>
+            <th>Date de création</th>
+            <th>Status</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var drone in this.PrepareListOfDrones())
+        {
+            <tr>
+                <td>@drone.Matricule</td>
+                <td>@drone.CreationDate.ToString("dddd dd MMMM yy HH:mm")</td>
+                <td>
+                    @*@if (drone.HealthStatus.Id == HealthStatus.Broken.Id)
+                    {
+                        <b class="color-orange">@drone.HealthStatus.Label</b>
+                    }
+                    else
+                    {
+                        <span class="">
+                            @drone.HealthStatus.Label
+                        </span>
+                    }*@
+
+                    @{
+                        string style = "";
+                        if(drone.HealthStatusId == HealthStatus.Broken.Id)
+                        {
+                            style = "font-weight: bold";
+                        }
+                    }
+
+                    @{
+                        Func<dynamic, object> brokenDiv = @<div style="@style">@drone.HealthStatus?.Label</div>;
+                    }
+
+                    @switch(drone.HealthStatusId)
+                    {
+                        case -2:
+                        {
+                            <i>@drone.HealthStatus?.Label</i>
+                        } break;
+                        case -1:
+                        {
+                            @brokenDiv(drone)
+                            /*<div style="@style">
+                                @drone.HealthStatus.Label
+                            </div>*/
+                        } break;
+                        case 0:
+                        {
+                            <span>
+                                @drone.HealthStatus?.Label
+                            </span>
+                        } break;
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

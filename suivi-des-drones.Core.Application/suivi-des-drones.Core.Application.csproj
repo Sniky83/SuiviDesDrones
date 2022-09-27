@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>suivi_des_drones.Core.Application</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\suivi-des-drones.Core.Interfaces\suivi-des-drones.Core.Interfaces.csproj" />
+    <ProjectReference Include="..\suivi-des-drones.Core.Models\suivi-des-drones.Core.Models.csproj" />
+  </ItemGroup>
+
+</Project>
