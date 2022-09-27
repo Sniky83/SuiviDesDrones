@@ -1,0 +1,15 @@
+C:\Projets\suivi-des-drones\PatternIoC\bin\Debug\net6.0\PatternIoC.exe
+C:\Projets\suivi-des-drones\PatternIoC\bin\Debug\net6.0\PatternIoC.deps.json
+C:\Projets\suivi-des-drones\PatternIoC\bin\Debug\net6.0\PatternIoC.runtimeconfig.json
+C:\Projets\suivi-des-drones\PatternIoC\bin\Debug\net6.0\PatternIoC.dll
+C:\Projets\suivi-des-drones\PatternIoC\bin\Debug\net6.0\PatternIoC.pdb
+C:\Projets\suivi-des-drones\PatternIoC\obj\Debug\net6.0\PatternIoC.csproj.AssemblyReference.cache
+C:\Projets\suivi-des-drones\PatternIoC\obj\Debug\net6.0\PatternIoC.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projets\suivi-des-drones\PatternIoC\obj\Debug\net6.0\PatternIoC.AssemblyInfoInputs.cache
+C:\Projets\suivi-des-drones\PatternIoC\obj\Debug\net6.0\PatternIoC.AssemblyInfo.cs
+C:\Projets\suivi-des-drones\PatternIoC\obj\Debug\net6.0\PatternIoC.csproj.CoreCompileInputs.cache
+C:\Projets\suivi-des-drones\PatternIoC\obj\Debug\net6.0\PatternIoC.dll
+C:\Projets\suivi-des-drones\PatternIoC\obj\Debug\net6.0\refint\PatternIoC.dll
+C:\Projets\suivi-des-drones\PatternIoC\obj\Debug\net6.0\PatternIoC.pdb
+C:\Projets\suivi-des-drones\PatternIoC\obj\Debug\net6.0\PatternIoC.genruntimeconfig.cache
+C:\Projets\suivi-des-drones\PatternIoC\obj\Debug\net6.0\ref\PatternIoC.dll

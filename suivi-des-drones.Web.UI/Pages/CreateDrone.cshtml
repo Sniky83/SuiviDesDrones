@@ -1,0 +1,18 @@
+﻿@page "/creation-drone"
+@model suivi_des_drones.Web.UI.Pages.CreateDroneModel
+@{
+}
+
+<h1>Ajout d'un nouveau drone</h1>
+
+<form method="post">
+    <input asp-for="MonDrone.Matricule" />
+    <span asp-validation-for="MonDrone.Matricule">*</span>
+    <input asp-for="MonDrone.CreationDate" />
+
+    <button>Créer</button>
+</form>
+
+@section scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "suivi-des-drones.Core.Models/1.0.0": {
+        "runtime": {
+          "suivi-des-drones.Core.Models.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "suivi-des-drones.Core.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,206 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Projets\\suivi-des-drones\\suivi-des-drones.Core.Infrastructure\\suivi-des-drones.Core.Infrastructure.csproj": {}
+  },
+  "projects": {
+    "C:\\Projets\\suivi-des-drones\\suivi-des-drones.Core.Infrastructure\\suivi-des-drones.Core.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projets\\suivi-des-drones\\suivi-des-drones.Core.Infrastructure\\suivi-des-drones.Core.Infrastructure.csproj",
+        "projectName": "suivi-des-drones.Core.Infrastructure",
+        "projectPath": "C:\\Projets\\suivi-des-drones\\suivi-des-drones.Core.Infrastructure\\suivi-des-drones.Core.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\lherve\\.nuget\\packages\\",
+        "outputPath": "C:\\Projets\\suivi-des-drones\\suivi-des-drones.Core.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\lherve\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Projets\\suivi-des-drones\\suivi-des-drones.Core.Interfaces\\suivi-des-drones.Core.Interfaces.csproj": {
+                "projectPath": "C:\\Projets\\suivi-des-drones\\suivi-des-drones.Core.Interfaces\\suivi-des-drones.Core.Interfaces.csproj"
+              },
+              "C:\\Projets\\suivi-des-drones\\suivi-des-drones.Core.Models\\suivi-des-drones.Core.Models.csproj": {
+                "projectPath": "C:\\Projets\\suivi-des-drones\\suivi-des-drones.Core.Models\\suivi-des-drones.Core.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Projets\\suivi-des-drones\\suivi-des-drones.Core.Interfaces\\suivi-des-drones.Core.Interfaces.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projets\\suivi-des-drones\\suivi-des-drones.Core.Interfaces\\suivi-des-drones.Core.Interfaces.csproj",
+        "projectName": "suivi-des-drones.Core.Interfaces",
+        "projectPath": "C:\\Projets\\suivi-des-drones\\suivi-des-drones.Core.Interfaces\\suivi-des-drones.Core.Interfaces.csproj",
+        "packagesPath": "C:\\Users\\lherve\\.nuget\\packages\\",
+        "outputPath": "C:\\Projets\\suivi-des-drones\\suivi-des-drones.Core.Interfaces\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\lherve\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Projets\\suivi-des-drones\\suivi-des-drones.Core.Models\\suivi-des-drones.Core.Models.csproj": {
+                "projectPath": "C:\\Projets\\suivi-des-drones\\suivi-des-drones.Core.Models\\suivi-des-drones.Core.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Projets\\suivi-des-drones\\suivi-des-drones.Core.Models\\suivi-des-drones.Core.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projets\\suivi-des-drones\\suivi-des-drones.Core.Models\\suivi-des-drones.Core.Models.csproj",
+        "projectName": "suivi-des-drones.Core.Models",
+        "projectPath": "C:\\Projets\\suivi-des-drones\\suivi-des-drones.Core.Models\\suivi-des-drones.Core.Models.csproj",
+        "packagesPath": "C:\\Users\\lherve\\.nuget\\packages\\",
+        "outputPath": "C:\\Projets\\suivi-des-drones\\suivi-des-drones.Core.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\lherve\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

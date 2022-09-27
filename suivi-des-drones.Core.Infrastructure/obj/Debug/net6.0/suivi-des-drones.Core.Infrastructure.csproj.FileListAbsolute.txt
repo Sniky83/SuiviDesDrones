@@ -1,0 +1,17 @@
+C:\Projets\suivi-des-drones\suivi-des-drones.Core.Infrastructure\bin\Debug\net6.0\suivi-des-drones.Core.Infrastructure.deps.json
+C:\Projets\suivi-des-drones\suivi-des-drones.Core.Infrastructure\bin\Debug\net6.0\suivi-des-drones.Core.Infrastructure.dll
+C:\Projets\suivi-des-drones\suivi-des-drones.Core.Infrastructure\bin\Debug\net6.0\suivi-des-drones.Core.Infrastructure.pdb
+C:\Projets\suivi-des-drones\suivi-des-drones.Core.Infrastructure\bin\Debug\net6.0\suivi-des-drones.Core.Interfaces.dll
+C:\Projets\suivi-des-drones\suivi-des-drones.Core.Infrastructure\bin\Debug\net6.0\suivi-des-drones.Core.Models.dll
+C:\Projets\suivi-des-drones\suivi-des-drones.Core.Infrastructure\bin\Debug\net6.0\suivi-des-drones.Core.Interfaces.pdb
+C:\Projets\suivi-des-drones\suivi-des-drones.Core.Infrastructure\bin\Debug\net6.0\suivi-des-drones.Core.Models.pdb
+C:\Projets\suivi-des-drones\suivi-des-drones.Core.Infrastructure\obj\Debug\net6.0\suivi-des-drones.Core.Infrastructure.csproj.AssemblyReference.cache
+C:\Projets\suivi-des-drones\suivi-des-drones.Core.Infrastructure\obj\Debug\net6.0\suivi-des-drones.Core.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projets\suivi-des-drones\suivi-des-drones.Core.Infrastructure\obj\Debug\net6.0\suivi-des-drones.Core.Infrastructure.AssemblyInfoInputs.cache
+C:\Projets\suivi-des-drones\suivi-des-drones.Core.Infrastructure\obj\Debug\net6.0\suivi-des-drones.Core.Infrastructure.AssemblyInfo.cs
+C:\Projets\suivi-des-drones\suivi-des-drones.Core.Infrastructure\obj\Debug\net6.0\suivi-des-drones.Core.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Projets\suivi-des-drones\suivi-des-drones.Core.Infrastructure\obj\Debug\net6.0\suivi-des-drones.Core.Infrastructure.csproj.CopyComplete
+C:\Projets\suivi-des-drones\suivi-des-drones.Core.Infrastructure\obj\Debug\net6.0\suivi-des-drones.Core.Infrastructure.dll
+C:\Projets\suivi-des-drones\suivi-des-drones.Core.Infrastructure\obj\Debug\net6.0\refint\suivi-des-drones.Core.Infrastructure.dll
+C:\Projets\suivi-des-drones\suivi-des-drones.Core.Infrastructure\obj\Debug\net6.0\suivi-des-drones.Core.Infrastructure.pdb
+C:\Projets\suivi-des-drones\suivi-des-drones.Core.Infrastructure\obj\Debug\net6.0\ref\suivi-des-drones.Core.Infrastructure.dll
