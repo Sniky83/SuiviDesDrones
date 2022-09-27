@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using suivi_des_drones.Core.Interfaces.Repositories;
@@ -5,6 +6,7 @@ using suivi_des_drones.Core.Models;
 
 namespace suivi_des_drones.Web.UI.Pages
 {
+    [Authorize]
     public class CreateDroneModel : PageModel
     {
         private readonly IDroneRepository _repository;

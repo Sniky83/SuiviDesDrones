@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using suivi_des_drones.Core.Infrastructure.Databases;
 using suivi_des_drones.Core.Infrastructure.DataLayers;
@@ -8,6 +9,7 @@ using suivi_des_drones.Core.Models;
 
 namespace suivi_des_drones.Web.UI.Pages
 {
+    [Authorize]
     public class IndexModel : PageModel
     {
         #region Fields

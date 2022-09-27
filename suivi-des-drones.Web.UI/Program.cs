@@ -5,10 +5,10 @@ using suivi_des_drones.Core.Infrastructure.DataLayers;
 using suivi_des_drones.Core.Interfaces.Infrastructures;
 using suivi_des_drones.Core.Interfaces.Repositories;
 using suivi_des_drones.Core.Infrastructure.Web.Middlewares;
-using suivi_des_drones.Core.Models;
 using suivi_des_drones.Core.Infrastructure;
 using Microsoft.AspNetCore.Identity;
 using suivi_des_drones.Web.UI.Data;
+using suivi_des_drones.Web.UI.Areas.Identity.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
