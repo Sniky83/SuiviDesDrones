@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace suivi_des_drones.Core.Infrastructure.Databases
 {
-    public class DroneDbContextFactory : IDesignTimeDbContextFactory<DronesDbContext>
+    public class DronesDbContextFactory : IDesignTimeDbContextFactory<DronesDbContext>
     {
         #region Public Methods
         public DronesDbContext CreateDbContext(string[] args)

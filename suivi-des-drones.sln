@@ -23,6 +23,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PatternIoC", "PatternIoC\Pa
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "suivi-des-drones.Core.Infrastructure.Web", "suivi-des-drones.Core.Infrastructure.Web\suivi-des-drones.Core.Infrastructure.Web.csproj", "{81D328C5-7D4D-49A1-A217-FB4EA2638AF9}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{A4435399-B9FA-49E2-B34E-F5974DCAC046}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "suivi-des-drones.Tests.Web.UI", "suivi-des-drones.Tests.Web.UI\suivi-des-drones.Tests.Web.UI.csproj", "{E2D02116-28CE-4AF6-B8AF-FF20F5571ABC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +61,10 @@ Global
 		{81D328C5-7D4D-49A1-A217-FB4EA2638AF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{81D328C5-7D4D-49A1-A217-FB4EA2638AF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{81D328C5-7D4D-49A1-A217-FB4EA2638AF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2D02116-28CE-4AF6-B8AF-FF20F5571ABC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2D02116-28CE-4AF6-B8AF-FF20F5571ABC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2D02116-28CE-4AF6-B8AF-FF20F5571ABC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2D02116-28CE-4AF6-B8AF-FF20F5571ABC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -69,6 +77,7 @@ Global
 		{30D4D339-D544-43DE-BB57-5C881CA23208} = {85F3F297-1ADA-4216-92B7-D5988B205270}
 		{F15538C2-5A05-4E5E-BA95-D2F3C095BAB4} = {6CA72A82-BB85-4CA3-A8ED-B4FFCE01EA22}
 		{81D328C5-7D4D-49A1-A217-FB4EA2638AF9} = {85F3F297-1ADA-4216-92B7-D5988B205270}
+		{E2D02116-28CE-4AF6-B8AF-FF20F5571ABC} = {A4435399-B9FA-49E2-B34E-F5974DCAC046}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {36417637-A11F-44EF-9743-2D8F0FF1F77F}
