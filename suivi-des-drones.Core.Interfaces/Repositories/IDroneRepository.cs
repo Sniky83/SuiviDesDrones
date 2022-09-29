@@ -15,6 +15,13 @@ namespace suivi_des_drones.Core.Interfaces.Repositories
         List<Drone> GetAll();
 
         /// <summary>
+        /// Retourne un drone par son matricule
+        /// </summary>
+        /// <param name="matricule"></param>
+        /// <returns></returns>
+        Drone GetOne(string matricule);
+
+        /// <summary>
         /// Ajout ou mise à jour d'un drone
         /// </summary>
         /// <param name="drone"></param>

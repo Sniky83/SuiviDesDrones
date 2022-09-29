@@ -62,7 +62,9 @@
         @foreach(var drone in this.PrepareListOfDrones())
         {
             <tr>
-                <td>@drone.Matricule</td>
+                <td>
+                    <a asp-page="OneDrone" asp-route-matricule="@drone.Matricule">@drone.Matricule</a>
+                </td>
                 <td>@drone.CreationDate.ToString("dddd dd MMMM yy HH:mm")</td>
                 <td>
                     @*@if (drone.HealthStatus.Id == HealthStatus.Broken.Id)

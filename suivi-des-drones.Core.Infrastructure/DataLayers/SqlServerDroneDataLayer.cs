@@ -4,6 +4,7 @@ using suivi_des_drones.Core.Interfaces.Infrastructures;
 using suivi_des_drones.Core.Models;
 using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -25,6 +26,13 @@ namespace suivi_des_drones.Core.Infrastructure.DataLayers
             //entry.State = Microsoft.EntityFrameworkCore.EntityState.Unchanged;
 
             Context?.SaveChanges();
+        }
+
+        public Drone? GetOne(string matricule)
+        {
+            return Context?.Drones
+                            .Include(item => item.HealthStatus)
+                            .First(item => item.Matricule == matricule);
         }
 
         public List<Drone> GetList()

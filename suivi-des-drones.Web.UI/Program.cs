@@ -7,6 +7,7 @@ using suivi_des_drones.Core.Interfaces.Repositories;
 using suivi_des_drones.Core.Infrastructure.Web.Middlewares;
 using suivi_des_drones.Core.Infrastructure;
 using Microsoft.AspNetCore.Identity;
+using suivi_des_drones.Core.Infrastructure.Web.Constraints;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -30,6 +31,7 @@ builder.Services.AddScoped<IDroneDataLayer, SqlServerDroneDataLayer>();
 builder.Services.AddScoped<IUserDataLayer, SqlServerUserDataLayer>();
 builder.Services.AddScoped<IDroneRepository, DroneRepository>();
 builder.Services.AddScoped<IUserRepository, UserRepository>();
+//builder.Services.AddScoped<IDeliveryRepository, DeliveryRepository>();
 
 //Config session Login
 builder.Services.AddSession(options =>
@@ -37,6 +39,11 @@ builder.Services.AddSession(options =>
     options.IdleTimeout = TimeSpan.FromSeconds(10);
     //options.Cookie.HttpOnly = true;
     //options.Cookie.IsEssential = true;
+});
+
+builder.Services.Configure<RouteOptions>(options =>
+{
+    options.ConstraintMap.Add("matconst", typeof(MatriculeRouteConstraint));
 });
 
 var app = builder.Build();

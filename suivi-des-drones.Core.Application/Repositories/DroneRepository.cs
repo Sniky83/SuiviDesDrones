@@ -38,6 +38,18 @@ namespace suivi_des_drones.Core.Application.Repositories
             return list;
         }
 
+        public Drone GetOne(string matricule)
+        {
+            Drone drone = _dataLayer.GetOne(matricule);
+
+            if(drone == null)
+            {
+                throw new ArgumentNullException("matricule");
+            }
+
+            return drone;
+        }
+
         public void Save(Drone drone)
         {
             drone.HealthStatusId = HealthStatus.Broken.Id;
