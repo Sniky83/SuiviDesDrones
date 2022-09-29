@@ -52,7 +52,7 @@ namespace suivi_des_drones.Core.Application.Repositories
 
         public void Save(Drone drone)
         {
-            drone.HealthStatusId = HealthStatus.Broken.Id;
+            drone.HealthStatusId = HealthStatus.OK.Id;
 
             _dataLayer.AddOne(drone);
         }

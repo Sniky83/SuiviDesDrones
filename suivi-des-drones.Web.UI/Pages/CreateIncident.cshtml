@@ -1,0 +1,45 @@
+﻿@page "/nouvel-incident"
+@model CreateIncidentModel
+@inject LinkGenerator linkGenerator
+
+@{
+}
+
+<div id="incidents"></div>
+
+<form method="post" enctype="multipart/form-data">
+    <input type="file" asp-for="PictureFile" />
+
+    <button>Déclarer</button>
+</form>
+
+@section scripts {
+    <script>
+        class IncidentsService {
+            async loadAll() {
+                const url = '@linkGenerator.GetPathByPage(HttpContext, "incidents")';
+
+                const response = await fetch(url);
+                const data = await response.json();
+
+                return data;
+            }
+        }
+
+        const container = document.querySelector("#incidents");
+        const timer = 500;
+
+        setInterval(async () => {
+            let html = '';
+
+            const data = await(new IncidentsService()).loadAll();
+
+            data.forEach(incident => {
+                let row = `<span><i>${incident.reason}</i></span> <br>`;
+                html += row;
+            });
+
+            container.innerHTML = html;
+        }, timer);
+    </script>
+}
