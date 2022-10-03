@@ -53,6 +53,9 @@ namespace suivi_des_drones.Web.UI.Pages
         public async Task<IActionResult> OnGetAsync()
         {
             IActionResult result = Page();
+
+            throw new NotImplementedException();
+
             this.SetListOfDrones();
             this.SetListOfStatus();
 

@@ -25,7 +25,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "suivi-des-drones.Core.Infra
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{A4435399-B9FA-49E2-B34E-F5974DCAC046}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "suivi-des-drones.Tests.Web.UI", "suivi-des-drones.Tests.Web.UI\suivi-des-drones.Tests.Web.UI.csproj", "{E2D02116-28CE-4AF6-B8AF-FF20F5571ABC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "suivi-des-drones.Tests.Web.UI", "suivi-des-drones.Tests.Web.UI\suivi-des-drones.Tests.Web.UI.csproj", "{E2D02116-28CE-4AF6-B8AF-FF20F5571ABC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
