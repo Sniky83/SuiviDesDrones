@@ -22,6 +22,8 @@ namespace suivi_des_drones.Web.UI.Pages
         {
             _logger = logger;
             _repository = repository;
+
+            _logger.LogError("Oops I did it again !");
         }
         #endregion
 
