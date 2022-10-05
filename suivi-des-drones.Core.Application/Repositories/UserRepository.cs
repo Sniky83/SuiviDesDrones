@@ -12,20 +12,20 @@ namespace suivi_des_drones.Core.Application.Repositories
     public class UserRepository : IUserRepository
     {
         #region Fields
-        private readonly IUserDataLayer _layer;
+        private readonly IUserDataLayer _dataLayer;
         #endregion
 
         #region Constructors
-        public UserRepository(IUserDataLayer layer)
+        public UserRepository(IUserDataLayer dataLayer)
         {
-            _layer = layer;
+            _dataLayer = dataLayer;
         }
         #endregion
 
         #region Public Methods
         public CompleteUser LogIn(AuthenticationUser user)
         {
-            var userData = _layer.GetOne(user.Login, user.Password);
+            var userData = _dataLayer.GetOne(user.Login, user.Password);
 
             if(userData == null)
             {

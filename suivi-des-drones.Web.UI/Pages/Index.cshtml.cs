@@ -56,8 +56,6 @@ namespace suivi_des_drones.Web.UI.Pages
         {
             IActionResult result = Page();
 
-            throw new NotImplementedException();
-
             this.SetListOfDrones();
             this.SetListOfStatus();
 
